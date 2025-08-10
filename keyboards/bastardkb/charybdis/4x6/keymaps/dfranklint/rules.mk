@@ -14,6 +14,7 @@ NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
+TAP_DANCE_ENABLE = no # Tap Dance for DRGSCRL
 
 AUDIO_SUPPORTED = no        # Audio is not supported
 RGB_MATRIX_SUPPORTED = yes  # RGB matrix is supported and enabled by default
@@ -22,6 +23,7 @@ RGB_MATRIX_ENABLE = yes     # Enable keyboard RGB matrix functionality
 RGB_MATRIX_DRIVER = ws2812
 RGB_MATRIX_CUSTOM_USER = yes # Allow user defined keymaps in rgb_matrix_user.inc
 COMBO_ENABLE = yes
+DYNAMIC_TAPPING_TERM_ENABLE = yes
 
 SPLIT_KEYBOARD = yes
 
